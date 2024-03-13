@@ -1,0 +1,58 @@
+ /* ORIGINAL TASK PUPILS STARTED WITH
+Full credit to code.org for task */
+  body{
+    text-align: center;
+    background-image: linear-gradient(#fd7272, #72fd83, #7289fd) ;
+  }
+p {
+  color: black;
+  font-style: italic;
+}
+h1 {
+  color: #ff990a;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+}
+
+h3 {
+  color: navy;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: Helvetica, sans-serif;
+}
+
+img{
+  height: 300px;
+  width: 300px;
+}
+
+#heading{/*created the title box here and put it in the top middle*/
+  border: 2px solid #000000;
+  position: relative;
+  top: 10px;
+  left: 473px;
+  width: 50%;
+  background-color: #636363;
+  padding: 10px;
+  margin: 15px;
+}
+.box{/*structure for all of the boxes*/
+  text-align: center;
+  border: 2px solid #000000;
+  position: relative;
+  top: 50px;
+  left: 770px;
+  width: 20%;
+  text-align: center;
+  box-align: center;
+  height: 425px;
+}
+#red{
+  background-color: #fd7272;
+}
+#green{
+  background-color: #72fd83;
+}
+#blue{
+  background-color: #7289fd;
+}/*made each id of the boxes different to change the color*/
